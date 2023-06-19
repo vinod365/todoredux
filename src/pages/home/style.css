@@ -1,0 +1,8 @@
+.home {
+
+    padding: 48px;
+    border-radius: 12px;
+    min-width: 450px;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: saturate(189%) blur(20px);
+}
