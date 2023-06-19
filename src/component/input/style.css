@@ -1,0 +1,70 @@
+.input {
+    padding: 25px;
+    border-bottom: 1px dotted white;
+}
+
+
+
+form div {
+    display: flex;
+   justify-content: stretch;
+}
+
+form {
+    display: flex;
+    flex-direction:column;
+    gap: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.inner {
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.task--search {
+    flex: 0.5;
+}
+.task--date {
+    flex: 0.5;
+}
+
+input  {
+    flex: 1;
+    border: none;
+    /* background-color: #A1C2F1; */
+    padding: 15px;
+    border-radius: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    background: rgba(255,255,255,0.9);
+    backdrop-filter: saturate(180%) blur(10px);
+}
+
+select {
+    flex: 1;
+    border: none;
+    /* background-color: #A1C2F1; */
+    padding: 15px;
+    border-radius: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: rgba(255,255,255,0.9);
+    backdrop-filter: saturate(180%) blur(10px);
+}
+
+button {
+    flex: 1;
+    border: none;
+    /* background-color: #A1C2F1; */
+    padding: 15px;
+    border-radius: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 18px;
+    background: rgba(255,255,255,0.9);
+    backdrop-filter: saturate(180%) blur(10px);
+}
